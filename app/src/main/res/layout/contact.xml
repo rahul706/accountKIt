@@ -7,23 +7,27 @@
         android:text="Search Contact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnSearchContact"/>
+        android:id="@+id/btnSearchContact"
+        android:textColor="#00bcd4" />
 
     <Button
         android:text="Add New Contact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnAddNewContact" />
+        android:id="@+id/btnAddNewContact"
+        android:textColor="#00bcd4" />
 
     <Button
         android:text="Delete Contact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnDeleteContact" />
+        android:id="@+id/btnDeleteContact"
+        android:textColor="#00bcd4" />
 
     <Button
         android:text="Update Contact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnUpdateContact" />
+        android:id="@+id/btnUpdateContact"
+        android:textColor="#00bcd4" />
 </LinearLayout>
