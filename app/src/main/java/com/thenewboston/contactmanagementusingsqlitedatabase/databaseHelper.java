@@ -15,7 +15,7 @@ public class databaseHelper extends SQLiteOpenHelper {
     public databaseHelper(Context context) {
         super(context, DATABASE_NAME, null, 1);
 
-        SQLiteDatabase db = this.getWritableDatabase();
+
     }
 
     @Override
@@ -28,5 +28,10 @@ public class databaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXITS " + TABLE_NAME);
          onCreate(db);
+    }
+
+    public boolean insertData(String name , int mobile_number , String email{
+
+        SQLiteDatabase db = this.getWritableDatabase();
     }
 }
